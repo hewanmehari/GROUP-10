@@ -1,0 +1,16 @@
+Input: A list of books(each with the bookId, title, availability and the person who booked it), A list of reservations(each with the eventID and list of patrons)
+
+Output: Reservations and borrowed books
+
+
+Steps:
+
+1.Create a system to manage books and reservations.
+2.Set up a collection for storing book details.
+3.Set up a collection for keeping track of event reservations.
+4.To add a new book store the book’s ID and name.
+5.Mark the book as ready for borrowing.
+6.To let a person borrow a book If the book is not in the system, say it is missing.
+7.If book is available in book inventory or digital books then assign book to user remove book from inventory and add it to borrowed books
+8.If book is returned by customer add book back to inventory and remove from borrowed books
+
